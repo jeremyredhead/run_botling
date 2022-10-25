@@ -1,0 +1,9 @@
+The BOMB License
+
+Copyright (c) 2022 j. redhead & friends
+
+Each contributor licenses you to do everything with this software
+that would otherwise infringe that contributor's copyright in it,
+subject to the following conditions:
+
+You shall use this software for Good, not Evil.
