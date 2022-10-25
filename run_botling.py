@@ -14,7 +14,7 @@ except ImportError:
 defaults = {
 	'room': 'test',
 	'name': 'TestBot',
-	'creator': 'Ana Ni Muss',
+	'creator': 'Anonymous',
 }
 
 def run_file(file):
