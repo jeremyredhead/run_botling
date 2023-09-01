@@ -8,7 +8,8 @@ and pass it the name of a file containing your bot's code. (e.g. `py run_botling
 
 The `!createbot &room @BotName` prefix is technically optional, but highly encouraged,  
 as currently the only other way to change the name or room is editing the python file.  
-(you will **have** to edit the file if you want the creator variable to refer to you :S)  
+(to set the creator variable precede `!createbot` with your name in square brackets,  
+e.g. `[Builder Bob] !createbot @WeCanFixItBot CODE` -- but not `[Ana Ni Muss] CODE`)  
 
 ## Dependencies (*and how to install them*)  
 
