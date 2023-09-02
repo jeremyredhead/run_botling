@@ -30,10 +30,10 @@ def run_file(file):
 			(?P<code>.*)
 		'''
 		m = re.match(prefix, f.read())
-	room = m.group('room') or defaults.room
-	name = (m.group('name') or defaults.name)[:36]
+	room = m.group('room') or defaults['room']
+	name = (m.group('name') or defaults['name'])[:36]
 	code = m.group('code')
-	creator = m.group('creator') or defaults.creator
+	creator = m.group('creator') or defaults['creator']
 	botgroup.create(nickname=name, room_name=room, password=None, creator=creator, code=code)
 
 def main():
